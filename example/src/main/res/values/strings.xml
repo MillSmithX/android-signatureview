@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">SignatureView Example</string>
+    <string name="activity_main_delete">delete</string>
+    <string name="activity_main_save">save</string>
+
+    <string name="imageFolderName">SignatureView</string>
 </resources>

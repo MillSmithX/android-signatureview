@@ -124,7 +124,6 @@ public class SignatureView extends View {
 
     }
 
-    /* Method */
 
     private void setupDrawing() {
         mDrawPath = new Path();

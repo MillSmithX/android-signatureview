@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <com.plankton.design.SignatureView
+    <com.planktonspace.library.SignatureView
         android:id="@+id/signatureView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />

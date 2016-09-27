@@ -1,10 +1,9 @@
-package com.plankton.example;
+package com.planktonspace.example;
 
 import android.Manifest;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Build;
@@ -20,7 +19,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.plankton.design.SignatureView;
+import com.planktonspace.library.SignatureView;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -102,13 +101,8 @@ public class MainActivity extends AppCompatActivity {
     // save image to sdcard and seng broadcast to re-mount gallery.
 
     private void saveImage() {
-        Bitmap sign = signatureView.getmCanvasBitmap();
 
-//        File myDir = new File(Environment.getExternalStorageDirectory(
-//                Environment.DIRECTORY_PICTURES), getResources().getString(R.string.imageFolderName));
-//        if (!myDir.mkdirs()) {
-//            Log.e("LOG_TAG", "Directory not created");
-//        }
+        Bitmap sign = signatureView.getmCanvasBitmap();
 
 
         String root = Environment.getExternalStorageDirectory().toString();

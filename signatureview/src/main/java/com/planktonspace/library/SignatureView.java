@@ -1,4 +1,4 @@
-package com.plankton.design;
+package com.planktonspace.library;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -34,23 +34,6 @@ public class SignatureView extends View {
 
     private Canvas mDrawCanvas;
 
-    public Bitmap getmCanvasBitmap() {
-        return mCanvasBitmap;
-    }
-
-    public void setmCanvasBitmap(Bitmap mCanvasBitmap) {
-        this.mCanvasBitmap = mCanvasBitmap;
-    }
-
-
-    public void setmStrokeWidth(float mStrokeWidth) {
-        this.mStrokeWidth = mStrokeWidth;
-    }
-
-    public void setmPaintColor(int mPaintColor) {
-        this.mPaintColor = mPaintColor;
-    }
-
     public SignatureView(Context context) {
         super(context);
         setupDrawing();
@@ -61,6 +44,7 @@ public class SignatureView extends View {
         setupDrawing();
     }
 
+
     public SignatureView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         setupDrawing();
@@ -70,6 +54,22 @@ public class SignatureView extends View {
     public SignatureView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
         setupDrawing();
+    }
+
+    public Bitmap getmCanvasBitmap() {
+        return mCanvasBitmap;
+    }
+
+    public void setmCanvasBitmap(Bitmap mCanvasBitmap) {
+        this.mCanvasBitmap = mCanvasBitmap;
+    }
+
+    public void setmStrokeWidth(float mStrokeWidth) {
+        this.mStrokeWidth = mStrokeWidth;
+    }
+
+    public void setmPaintColor(int mPaintColor) {
+        this.mPaintColor = mPaintColor;
     }
 
     @Override

@@ -56,19 +56,19 @@ public class SignatureView extends View {
         setupDrawing();
     }
 
-    public Bitmap getmCanvasBitmap() {
+    public Bitmap getCanvasBitmap() {
         return mCanvasBitmap;
     }
 
-    public void setmCanvasBitmap(Bitmap mCanvasBitmap) {
+    public void setCanvasBitmap(Bitmap mCanvasBitmap) {
         this.mCanvasBitmap = mCanvasBitmap;
     }
 
-    public void setmStrokeWidth(float mStrokeWidth) {
+    public void setStrokeWidth(float mStrokeWidth) {
         this.mStrokeWidth = mStrokeWidth;
     }
 
-    public void setmPaintColor(int mPaintColor) {
+    public void setPaintColor(int mPaintColor) {
         this.mPaintColor = mPaintColor;
     }
 

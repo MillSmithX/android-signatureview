@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void saveImage() {
 
-        Bitmap sign = signatureView.getmCanvasBitmap();
+        Bitmap sign = signatureView.getCanvasBitmap();
 
 
         String root = Environment.getExternalStorageDirectory().toString();

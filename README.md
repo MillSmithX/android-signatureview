@@ -17,7 +17,7 @@ layout.xml
 ```
 
 you can get bitmap from SignatureView by
-```android
+```java
 Bitmap bitmap = signatureView.getCanvasBitmap();
 ```
 
